@@ -1,0 +1,139 @@
+.brand{
+    position: relative;
+    padding-bottom: 90px;
+}
+.name{
+    font-size: x-large;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 65px;
+    top: 10px;
+}
+.space{
+    font-size: larger;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 170px;
+    top: 70px;
+    color: darkgreen;
+}
+ .nev{
+    font-size: larger;
+    font-weight: 400;
+    position: absolute;
+    right: 100px;
+    top: 75px;
+    color: beige;
+    
+}
+a{
+    color: darkgreen;
+    text-decoration: none;
+}
+.active{
+    color: rgb(46, 5, 5);
+}
+a:hover{
+    color: rgb(46, 5, 5);
+}
+
+.main a{
+    color: black;
+}
+.heading{
+    top: 500px;
+    padding-top: 80px;
+    padding-bottom: 5px;
+    font-weight: 600;
+    left: 50px;
+    margin-left: 60px;
+  
+}
+.potraits{
+    top: 300px;
+}
+.potraitContsiner1{
+    position: absolute;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-inline-start: 45px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+
+}
+.a{
+    width: 100%;
+}
+.b{
+    position: relative;
+    width: 23%;
+    padding-inline-end: 15px;
+    
+}
+.c{
+    width: 23%;
+    padding-inline-end: 15px;
+}
+.d{
+    width: 23%;
+    padding-inline-end: 15px;
+}
+.e{
+    width: 23%;
+    padding-inline-end: 15px;
+}
+.f{
+    position: relative;
+    width: 23%;
+    padding-inline-end: 15px;
+}
+.g{
+    position: absolute;
+    width: 23%;
+    padding-inline-end: 15px;
+
+}
+.potraitContainer2{
+    position: relative;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-inline-start: 45px;
+    margin-top: 500px;
+    padding-bottom: 25px;
+}
+.potraitContainer3{
+    position: relative;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-inline-start: 45px;
+    margin-top: 10px;
+    padding-bottom: 25px;
+}
+.h{
+    position: relative;
+    width: 23%;
+    padding-inline-end: 15px;
+}
+.i{
+    width: 23%;
+    padding-inline-end: 15px;
+}
+.j{
+    width: 23%;
+    padding-inline-end: 15px;
+}
+.k{
+    width: 23%;
+    padding-inline-end: 15px;
+}
+.l{
+    position: relative;
+    width: 23%;
+    padding-inline-end: 15px;
+    
+}

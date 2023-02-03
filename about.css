@@ -1,0 +1,60 @@
+.brand{
+    position: relative;
+    padding-bottom: 90px;
+}
+.name{
+    font-size: x-large;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 65px;
+    top: 10px;
+}
+.space{
+    font-size: larger;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 170px;
+    top: 70px;
+    color: darkgreen;
+}
+ .nev{
+    font-size: larger;
+    font-weight: 400;
+    position: absolute;
+    right: 100px;
+    top: 75px;
+    color: beige;
+    
+}
+.active{
+    color: rgb(46, 5, 5);
+}
+a{
+    color: darkgreen;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(46, 5, 5);
+}
+.main a{
+    color: black;
+}
+.bio{
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size: x-large;
+    
+}
+.paragraph{
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: large;
+}
+.bio-picture{
+    position: absolute;
+    top: 220px;
+    right: 200px;
+}

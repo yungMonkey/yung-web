@@ -1,0 +1,96 @@
+ 
+.name{
+    font-size: x-large;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 65px;
+    top: 10px;
+}
+.space{
+    font-size: larger;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 170px;
+    top: 70px;
+    color: darkgreen;
+}
+ .nev{
+    font-size: larger;
+    font-weight: 400;
+    position: absolute;
+    right: 100px;
+    top: 75px;
+    color: beige;
+    
+}
+a{
+    color: darkgreen;
+    text-decoration: none;
+}
+.active{
+    color: rgb(46, 5, 5);
+}
+a:hover{
+    color: rgb(46, 5, 5);
+}
+.main a{
+    color: black;
+}
+.heading{
+    margin-top: 200px;
+    top: 500px;
+    
+
+}
+.cover{
+position: absolute;
+top: 250px;
+padding-bottom: 20px;
+}
+.potrait{
+    padding-left: 30px;
+    width: 30%;
+    filter: blur(1px);
+}
+.a{
+    font-size: 50px;
+    font-weight: 500;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 210px;
+    top: 300px;
+    color: white;
+}
+.street{
+    padding-left: 22px;
+    width: 30%;
+    filter: blur(1px);
+}
+.b{
+    font-size: 50px;
+    font-weight: 500;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 650px;
+    top: 300px;
+    color: white; 
+}
+.nature{
+    padding-left: 22px;
+    width: 30%;
+    filter: blur(1px);
+}
+.c{
+    font-size: 50px;
+    font-weight: 500;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    right: 220px;
+    top: 300px;
+    color: white;
+}

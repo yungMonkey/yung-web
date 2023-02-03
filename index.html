@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="photo.css">
+</head>
+<body>
+    <div class="brand">
+    <img class="front-page" src="img/Intro.jpg">
+    <div class="name">
+     <h1 > Yung Monkey </h1> 
+    </div>
+        <div class="space">
+           <h3> P h o t o g r a p h y</h3>
+        </div>
+       <!-- <div class="quote"> -->
+    <!-- <p class="quoteAnimation">-: Evolving Every Day :-</p> -->
+<!-- </div>*-->
+</div>
+    <nav class="nev">
+        <a   href="Portfolio.html">Portfolio</a> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        <a  href="about.html">About</a> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        <a   href="" id="album">Albums</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a   href="cantact.html">Contact</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+       
+    </nav> 
+   
+
+<div>
+    <div>
+        <img  class="shadow" src="https://www.transparentpng.com/thumb/shadow/iuqEeA-shadow-png-pic-controlled-drugs-cabinets-from-pharmacy.png" alt="circle shapy black shadow hd free backgrounds @transparentpng.com">  
+    </div>
+<div class="monkey">
+
+    <button class="btn" id="stop">
+    <img  class="monkeyImg" id="monkeyImg" src="img/hello.png" alt="" srcset="" width="200px">
+</button>
+</div>
+
+<div class="SlideShow-conatainer">
+<div class="nextPage fade">
+    <img class="Page2_0" src="img/2nd Page.jpg" alt="">
+   
+    <p class="aboutPhotgraphy">
+       
+       <b> Photography for me</b> is kind of time travel. <br>
+          When you see a photo after many years, you can go back in time to the moment <br> when the photo was taken and recollect details about it (where,why it was taken etc.).
+    </p>
+</div>
+
+<div class="nextPage fade">
+<img class="page2_2" src="img/page2_2.jpg" alt="">
+<div class="aboutPhotgraphy2">
+    <p>to take good picture you not need a expensive camera/ eqiupment. <br> the only thing you need is your skill. skill to potray emotion , movement ,<br> time , situation  by using some rules and
+        perspective</p>
+</div>
+</div>
+
+
+<div class="nextPage fade">
+    <img class="page2_3" src="img/page2_3.jpg" alt="">
+    <div class="aboutPhotography3">
+        <p><b> Does expensive camera/lenses or other component not really matter.</b><br>It matter when you fully use your camera potential and if you know when <br> you upgrade camera/equipment you use his potential advantages.  </p>
+
+    </div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+ 
+</div>
+
+
+<div class="dotMain" style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <div class="slide-showContainer2">
+ <div class="page3 fade" >
+    <img class="page3_1" src="img/3.1 page.jpg" alt="">
+ </div>
+ <div class="verticalLine"></div>
+ <div class="aboutPhotgraphy4">
+    <p class="about2">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Ad possimus, neque magnam ex fugit <br> distinctio quae facere ducimus sint aspernatur expedita <br> qui minus ipsum nobis aut quas voluptates? <br> Perspiciatis, ut.  </p>
+</div>
+  </div>
+  
+  <footer>
+    <h1 class="heading">Yung Monkey</h1>
+    <p class="sub-heading">Photography</p>
+    <h3 class="quote">Evolving Everyday..</h3>
+    <div class="verticalLine2"></div>
+    <p class="middle-part">Join Monkey Gang</p>
+    <button class="join" id="join" onclick="openPopup()">Join</button>
+    <p class="follow">Follow Me</p>
+    <div class="social">
+    <a href="https://www.instagram.com/yung_monkey_18/"><img class="logo" src="img/instagram logo.png" alt="" width="30%" ></a>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;
+    <!--<a href="https://wa.me/917355374975" target="_blank"> <img  class="logo2" src="img/whatsapp.png" alt="" width="4%"></a> -->
+    </div>
+    <div class="lastSection">
+        <p class="cc"> &copy; Copyright 2023. All Right Reserved: Yung Monkey</p>
+        <p class="pp">Privacy Policy </p>
+        <P class="tc">T&C</P>
+    </div>
+</footer>
+
+<div class="pop-up" id="popup">
+    <div class="close-btn" onclick="cutPopup()"> &times;</div>
+    <div class="form">
+        <h2>Join Gang</h2>
+        <div class="form-element">
+            <label for="Name">Name: </label>
+            <input type="text" name="Name" id="" placeholder="Enter Name">
+        </div>
+            <div class="form-element">
+            <label for="Generation">Generation: </label>
+            <select name="Generation" id="Generation">
+                <option value="--- select---">--- select---</option>
+                <option value="Gen-z" id="Gen-z">Gen-z</option>
+                <option value="Old Age">Old Age</option>
+            </select>
+        </div>
+        <div class="form-element">
+            <label for="Sex">Sex: </label>
+            <select name="Sex" id="Sex">
+                <option value="--- select--">--- select---</option>
+                <option value="Bahoot kiya hai">Bahoot kiya hai</option>
+                <option value="Bas upar-upar se">Bas upar-upar se</option>
+                <option value="Bachpan se Bitchless">Bachpan se Bitchless</option>
+            </select>
+        </div>
+        <button class="bt" id="bt" onclick="closePopup()"> Join </button>
+
+    </div>
+
+
+</div>
+
+<script src="fp.js"> </script>
+
+</body>
+</html>

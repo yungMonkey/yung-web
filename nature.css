@@ -1,0 +1,160 @@
+.name{
+    font-size: x-large;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 65px;
+    top: 10px;
+}
+.space{
+    font-size: larger;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 170px;
+    top: 70px;
+    color: darkgreen;
+}
+ .nev{
+    font-size: larger;
+    font-weight: 400;
+    position: absolute;
+    right: 100px;
+    top: 75px;
+    color: beige;
+    
+}
+a{
+    color: darkgreen;
+    text-decoration: none;
+}
+.active{
+    color: rgb(46, 5, 5);
+}
+a:hover{
+    color: rgb(46, 5, 5);
+}
+.main a{
+    color: black;
+}
+.heading{
+    margin-top: 200px;
+    top: 500px;
+}
+.streetContainer1{
+    position: absolute;
+    display: block;
+    padding-left: 25px;
+    
+    padding-inline-start: 45px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+
+}
+.a{
+    width: 100%;
+}
+.b{
+    position: relative;
+    width: 30%;
+    padding-inline-end: 15px;
+    padding-left: 35px;
+}
+.c{
+    width: 30%;
+    padding-inline-end: 15px;
+}
+.d{
+    width: 30%;
+    padding-inline-end: 15px;
+}
+.streetContainer2{
+    position: absolute;
+    display: block;
+    padding-left: 25px;
+    padding-inline-start: 45px;
+    padding-top: 380px;
+    padding-bottom: 25px;
+
+}
+.e{
+    position: relative;
+    width: 30%;
+    padding-inline-end: 15px;
+    padding-left: 35px;
+}
+.f{
+    width: 30%;
+    padding-inline-end: 15px;
+}
+.g{
+    width: 30%;
+    padding-inline-end: 15px;
+}
+.streetContainer3{
+    position: absolute;
+    display: block;
+    padding-left: 25px;
+    padding-inline-start: 45px;
+    padding-top: 740px;
+    padding-bottom: 25px;
+
+}
+.h{
+    position: relative;
+    width: 30%;
+    padding-inline-end: 15px;
+    padding-left: 35px;
+}
+.i{
+    width: 30%;
+    padding-inline-end: 15px;
+}
+.j{
+    width: 30%;
+    padding-inline-end: 15px;
+}
+.streetContainer4{
+    position: absolute;
+    display: block;
+    padding-left: 25px;
+    padding-inline-start: 45px;
+    padding-top: 1360px;
+    padding-bottom: 25px;
+}
+.k{
+    position: relative;
+    width: 30%;
+    padding-inline-end: 15px;
+    padding-left: 35px;
+}
+.l{
+    width: 30%;
+    padding-inline-end: 15px;
+}
+.m{
+    width: 30%;
+    padding-inline-end: 15px;
+}
+.streetContainer5{
+    position: absolute;
+    display: block;
+    padding-left: 25px;
+    padding-inline-start: 45px;
+    padding-top: 1980px;
+    padding-bottom: 25px;
+}
+.n{
+    position: relative;
+    width: 30%;
+    padding-inline-end: 15px;
+    padding-left: 35px;
+}
+.o{
+    width: 30%;
+    padding-inline-end: 15px;
+}
+.p{
+    width: 30%;
+    padding-inline-end: 15px;
+}

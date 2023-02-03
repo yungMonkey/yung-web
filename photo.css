@@ -1,0 +1,478 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+}
+
+.front-page{
+   
+      height: 100vh;
+      width: 100vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.brand{
+    position: relative;
+}
+.name{
+    font-size: x-large;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    left: 65px;
+    top: 10px;
+}
+.space{
+    font-size: larger;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    left: 170px;
+    top: 70px;
+    color: darkgreen;
+}
+ .nev{
+    font-size: larger;
+    font-weight: 400;
+    position: fixed;
+    right: 100px;
+    top: 75px;
+    color: beige;
+    display: inline;
+}
+.sticky{
+    position: absolute;
+}
+
+
+/*.quote{
+    position: absolute;
+    top: 300px;
+    
+}
+
+.quoteAnimation{
+
+    position: relative;
+    animation-name: quoteAnimation;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+
+
+}
+@keyframes quoteAnimation {
+    from{
+        
+        left: 1px;
+    }
+    to{
+    
+        left: 1500px;
+    }
+}*/
+
+a{
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.main a{
+    color: black;
+}
+a:hover{
+    color: rgb(88, 5, 5);
+}
+li a:is(:link , :active , :visited){
+    color: green;
+}
+a:is(:link, :active, :visited).active{
+color: blue;
+}
+.monkey{
+    position: absolute;
+    top: 550px;
+    right: 60px;
+}
+.monkeyImg{
+position: relative;
+animation-name: monkey;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+
+
+
+}
+
+@keyframes monkey {
+
+from{
+    
+bottom: 1px;
+
+}
+to{
+    bottom: 100px;
+
+}
+}
+
+.shadow{
+    position: absolute;
+    width: 15%;
+    opacity: 0.5;
+    right: 60px;
+    bottom: 0px;
+}
+
+.btn{
+    border: 0px;
+    background: rgba(255, 251, 251, 0);
+}
+
+@media only screen and (max-width: 412px){
+
+    .name{
+           font-size: 10px;
+           left: 2px; 
+    }
+    .space{
+        font-size: 6px;
+        left: 3.75rem;
+        top: 40px;
+    }
+    .nev{
+        font-size:8px ;
+        top: 47px;
+        right: 5px;
+       
+    }
+    .front-page{
+   
+        height: 100vh;
+        width: 75vh;
+  }
+}
+
+  .SlideShow-conatainer{
+    position: relative;
+
+
+  }
+
+.nextPage{
+    background-color: rgba(184, 239, 184, 0.271);
+    /*display: none;*/
+}
+.Page2_0{
+    height: 600px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 170px;
+    margin-right: 150px;
+    width: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.aboutPhotgraphy{
+    position: absolute;
+    top: 625px;
+    text-align: center;
+    margin-left: 420px;
+    font-size: 20px;
+    color: rgba(239, 239, 184, 0.596);
+}
+.page2_2{
+    height: 600px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 170px;
+    margin-right: 150px;
+    width: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutPhotgraphy2{
+    position: absolute;
+    top: 440px;
+    text-align: center;
+    margin-left: 420px;
+    font-size: 20px;
+    color: rgba(239, 239, 184, 0.596);
+    
+    
+}
+.page2_3{
+    height: 600px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 170px;
+    margin-right: 150px;
+    width: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutPhotography3{
+    position: absolute;
+    top: 420px;
+    text-align: center;
+    margin-left: 420px;
+    font-size: 20px;
+    color: rgba(239, 239, 184, 0.596);
+    
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    /*user-select: none;*/
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  /*.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }*/
+  .dotMain{
+    position: absolute;
+    margin-left: 50%;
+    top: 1478px;
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 0.8s;
+    
+  }
+  
+  @keyframes fade {
+    from {opacity: .3}
+    to {opacity: 1}
+  }
+  .slide-showContainer2{
+    position: relative;
+  }
+  .page3{
+    background-color: rgba(184, 239, 184, 0.451);  
+    position: absolute;
+  }
+.page3_1{
+   position: relative;
+    width: 25%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding-left: 1000px;
+
+}
+.aboutPhotgraphy4{
+    position: absolute;
+    top: 400px;
+    left: 170px;
+}
+.about2{
+    font-size: 20px;
+}
+.verticalLine{
+    position: absolute;
+    border-left: 3px solid green ;
+    height: 100px;
+    margin-top: 420px;
+    margin-left: 100px;
+}
+footer{
+    position: relative;
+    margin-top: 750px;
+    background-color: rgb(184, 239, 184);
+   
+ }
+    
+.heading{
+   
+    margin-left: 100px;
+}
+.sub-heading{
+    position: absolute;
+    font-size: 18px;
+    top: 20px;
+    left: 185px;
+    color: green;
+}
+.verticalLine2{
+    position: absolute;
+    border-left: 3px solid green ;
+    height: 40px;
+    top: 100px;
+    margin-left: 640px;
+}
+.quote{
+    position: absolute;
+    margin-left: 650px;
+    bottom: 35px;
+    font-size: 30px;
+}
+.middle-part{
+    position: relative;
+    margin-left: 700px;
+    bottom: 50px;
+}
+.join{
+    position: absolute;
+    margin-left: 730px;
+    bottom: 140px;
+    padding: 2px 20px 2px 20px ;
+    font-weight: bold;
+    background-color:transparent;
+    color: rgba(255, 0, 0, 0.693);
+    border-radius: 3px;
+    border-style:double;
+    border-color: rgba(255, 0, 0, 0.693);;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.join:hover{
+    background-color: rgb(151, 211, 151);
+    color: green;
+    border-color: green;
+ }
+
+.follow{
+    position: relative;
+    margin-left: 1200px;
+    bottom: 80px;
+}
+.social{
+    position: relative;
+    margin-left: 1220px;
+    bottom: 80px;
+}
+.logo{
+    width: 10%;
+}
+.logo:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+.cc{
+    position: absolute;
+    margin-left: 10%;
+    bottom: 1px;
+}
+.pp{
+    position: absolute;
+    bottom: 1px;
+    left: 1000px;
+    cursor: pointer;
+    
+}
+.tc{
+    position: absolute;
+    bottom: 1px;
+    left: 1150px;
+}
+.lastSection{
+    position: relative;
+    background-color: darkgreen;
+    padding: 20px 0 20px 0;
+}
+.pop-up{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    visibility: hidden;
+    transform: translate(-50%,-50%) scale(.1);
+    width: 300px;
+    padding: 20px,30px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px rgba(128, 128, 128, 0.263);
+    border-radius: 10px;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200  ease-in-out 0ms, 
+                transform 200ms ease-in-out 0ms;
+}
+.open-popup{
+    position: relative;
+    visibility: visible;
+    transform: translate(-50%,-50%) scale(1);
+    top: -400px;
+    transition: top 0ms ease-in-out 0ms,
+    opacity 200  ease-in-out 0ms, 
+    transform 200ms ease-in-out 0ms;
+}
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    background: #888;
+    color: #fff;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.form h2{
+    text-align: center;
+    margin: 10px 0 20px;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.form .form-element{
+    margin: 15px 0;
+}
+.form .form-element label{
+    font-size: 14px;
+    margin-left: 20px;
+    font-size: 17px;
+}
+.form .form-element input{
+    margin-left:5px ;
+    border-color: rgba(0, 0, 0, 0.504);
+    border-radius: 5px;
+    padding: 4px;
+}
+.form .form-element select{
+    border-color: rgba(0, 0, 0, 0.492);
+    margin-left: 5px;
+    padding: 3px 5px 3px 10px;
+    cursor: pointer;
+}
+.bt{
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    border: none;
+    font-size: 16px;
+    background-color: green;
+    color: #fff;
+    border-radius: 10px;
+    padding: 4px 0 4px;
+    cursor: pointer;
+}
+.bt:hover{
+    background-color: darkgreen;
+}
